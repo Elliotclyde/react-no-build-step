@@ -7,7 +7,7 @@ const html = htm.bind(React.createElement);
 
 
 const Card = ({message})=>{
-    return html`<h1>Hello world with no builtt step</h1>`; 
+    return html`<h1>React with no build step</h1>`; 
 }
 
 ReactDom.render(html`<${Card}/>`,document.getElementById('root'));
